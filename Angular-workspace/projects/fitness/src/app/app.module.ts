@@ -53,6 +53,13 @@ import { TrainerComponent } from './trainerfolder/trainer/trainer.component';
 import { TrainerUsersComponent } from './trainerfolder/trainer-users/trainer-users.component';
 import { UsersProgressComponent } from './trainerfolder/users-progress/users-progress.component';
 import { ExerciseComponent } from './trainerfolder/exercise/exercise.component';
+import { DoctorListComponent } from './adminfolder/doctor-list/doctor-list.component';
+import { DoctorComponent } from './adminfolder/doctor/doctor.component';
+import { TrainerregComponent } from './adminfolder/trainerreg/trainerreg.component';
+import { AdminnavComponent } from './adminfolder/adminnav/adminnav.component';
+import { UserFormComponent } from './adminfolder/user-form/user-form.component';
+import { UserListComponent } from './adminfolder/user-list/user-list.component';
+import { TrainerListComponent } from './adminfolder/trainer-list/trainer-list.component';
 
 
 @NgModule({
@@ -99,7 +106,22 @@ import { ExerciseComponent } from './trainerfolder/exercise/exercise.component';
     TrainerComponent,
     ExerciseComponent,
     TrainerUsersComponent,
-    UsersProgressComponent
+    UsersProgressComponent,
+
+    UserFormComponent,
+  
+    AdminnavComponent,
+   MembershipComponent,
+   TrainerregComponent,
+  
+   DoctorListComponent,
+   DoctorComponent,
+  
+   EquipmentComponent,
+   
+   UserFormComponent,
+   UserListComponent,
+   TrainerListComponent,
   ],
   imports: [
     BrowserModule,

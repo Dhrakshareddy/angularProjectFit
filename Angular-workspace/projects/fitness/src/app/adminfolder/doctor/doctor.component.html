@@ -1,0 +1,35 @@
+<!-- src/app/doctor/doctor-form/doctor-form.component.html -->
+<form [formGroup]="doctorForm" (ngSubmit)="onSubmit()" id="con">
+  <label for="doctorName">Doctor Name:</label>
+  <input type="text" id="doctorName" formControlName="doctorName">
+
+  <label for="password">Password:</label>
+  <input type="password" id="password" formControlName="password">
+  <br>
+
+  <label for="yearOfExperience">Year of Experience:</label>
+  <input type="number" id="yearOfExperience" formControlName="yearOfExperience">
+
+  <label for="contactNumber">Contact Number:</label>
+  <input type="tel" id="contactNumber"  formControlName="contactNumber">
+
+  <label for="shiftTimings">Shift Timings:</label>
+  <input type="text" id="shiftTimings"  formControlName="shiftTimings">
+
+  <label for="specialization">Specialization:</label>
+  <input type="text" id="specialization" formControlName="specialization">
+
+  <label for="gender">Gender:</label>
+  <select id="gender" formControlName="gender">
+    <option value="Male">Male</option>
+    <option value="Female">Female</option>
+    <!-- Add more options as needed -->
+  </select>
+
+  <!-- Add other fields as needed -->
+
+  <button type="submit">Add Doctor</button>
+</form>
+
+
+

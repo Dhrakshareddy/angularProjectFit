@@ -29,9 +29,9 @@ export class LoginComponent implements OnInit {
   }
   onSubmit(): void {
     alert('hello');
-     if(this.login.name=="admin" && this.login.password=="0000"){
+     if(this.login.name==="admin" && this.login.password==="0000"){
       alert(' trainer response');
-      this.router.navigate(['/about']);
+      this.router.navigate(['/adminnav']);
     }
     else if (this.loginForm.valid) {
       this.login.name = this.loginForm.value.name;

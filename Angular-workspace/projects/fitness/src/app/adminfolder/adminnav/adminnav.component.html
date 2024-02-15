@@ -1,0 +1,32 @@
+<!-- navbar.component.html -->
+
+<div class="container-fluid" id="con">
+    <div class="navbar">
+      <div class="hamburger" (click)="toggleMenu()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+  
+      <ul [ngClass]="{ show: isMenuOpen }">
+        <li id="profile"></li>
+        <li><a routerLink="/users" id="user">User</a></li>
+        <li><a routerLink="/doctors" id="doctor">Doctor</a></li>
+        <li><a routerLink="/trainers" id="trainer">Trainer</a></li>
+       <li><a routerLink="/equipment" id="equipment">Equipment</a></li>
+       <li><a routerLink="/branches" id="branches">branches</a></li>
+       <li><a routerLink="/membership" id="membership">Memebership</a></li>
+     
+      </ul>
+     
+
+    </div>
+    <section>
+
+      <router-outlet></router-outlet>
+    </section>
+
+   
+  </div>
+  
+  

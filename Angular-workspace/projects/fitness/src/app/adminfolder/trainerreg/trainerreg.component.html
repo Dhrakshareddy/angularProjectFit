@@ -1,0 +1,59 @@
+
+
+
+    
+    <div class="container">
+
+      <div>
+        <form [formGroup]="trainerForm" (ngSubmit)="onSubmit()" id="con">
+          <div><h1>Trainer Registration</h1></div>
+          <div>
+          <label for="name">Trainer Name:</label>
+          <input type="text" id="userName" formControlName="name">
+        </div>
+        <div>
+          <label for="password">Password:</label>
+          <input type="password" id="password" formControlName="password">
+          
+        </div>
+        <div>
+          <label for="age">Age:</label>
+          <input type="number" id="age" formControlName="age">
+        </div>
+        <div>
+        
+          <label for="yearOfExperience">Date of Birth:</label>
+          <input type="number" id="yearOfExperience" formControlName="yearOfExperience">
+        </div>
+        <div>
+        
+          <label for="email">Email:</label>
+          <input type="string" id="email" formControlName="email">
+        </div>
+        <div>
+    
+          <label for="shiftTimings">Shift Timings:</label>
+          <input type="string" id="shiftTimings" formControlName="shiftTimings">
+        </div>
+        <div>
+        
+          <label for="certification">Certification:</label>
+          <input type="string" id="certification" formControlName="certification">
+        </div>
+        <div>
+          <label for="contactNumber">Contact No:</label>
+          <input type="number" id="contactNumber" formControlName="contactNumber">
+        </div>
+        <div>
+        
+          <button type="submit" id="save">Save</button>
+        </div>
+        </form>
+    
+      </div>
+</div>
+
+
+
+    
+    

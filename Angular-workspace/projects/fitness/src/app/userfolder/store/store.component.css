@@ -23,7 +23,7 @@ body{
     width: 100vw;
     height: 100vh;
     background-repeat: no-repeat;
-    background-image: url(../../../../../images/store.avif);
+    /* background-image: url(../../../../../images/store.avif); */
     background-position: center;
     background-size: cover;
     z-index: -5;

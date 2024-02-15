@@ -1,0 +1,39 @@
+<body>
+
+  <table id="table" style="border: 1px solid black; border-collapse: collapse;" >
+      <thead style="border: 1px solid black;">
+        <tr style="border: 1px solid black;">
+        
+          <th class="th" style="border: 1px solid black;">Doctor ID</th>
+          <th class="th" style="border: 1px solid black;">Doctor Name</th>
+          <th class="th" style="border: 1px solid black;">Specialization</th>
+          <th class="th" style="border: 1px solid black;">Years of experience</th>
+          <th class="th" style="border: 1px solid black;">Contact Number</th>
+         
+          
+          <th id="action" style="border: 1px solid black;">Action</th>
+  </tr>
+      </thead>
+      <tbody>
+        <tr  *ngFor="let doctor of doctors">
+          <td style="border: 1px solid black;">{{ doctor.doctorId }}</td>
+          <td style="border: 1px solid black;">{{ doctor.doctorName }}</td>
+          <td style="border: 1px solid black;">{{ doctor.specialization}}</td>
+          <td style="border: 1px solid black;">{{ doctor.yearOfExperience }}</td>
+          <td style="border: 1px solid black;">{{ doctor.contactNumber }}</td>
+         
+          <td id="buttons">
+           
+  <button id="edit" routerLink="/doctors/edit/{{ doctor.doctorId }}">Edit</button>
+  <button id="delete" *ngIf="doctor.doctorId" (click)="deleteDoctor(doctor.doctorId)">Delete</button>
+  
+  
+  
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <button id="addtrainer" routerLink="/doctors/add">Add Doctor</button>
+  </body>
+    
+  

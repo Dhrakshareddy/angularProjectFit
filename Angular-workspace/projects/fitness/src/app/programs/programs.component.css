@@ -5,7 +5,7 @@
     font-family: 'Merriweather';
 }
 .container {
-    background-image: url('../../../../../images.css/image13.webp');
+    background-image: url('../../assets/image13.webp');
     /* padding: 40px; */
     text-align: center;
     color: white;

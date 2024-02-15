@@ -1,0 +1,10 @@
+#con{
+    width: 600px;
+    height: 800px;
+    border: solid 2px black;
+    position: absolute;
+    top: 200px;
+    right: 700px;
+    background-color: black;
+    color: aliceblue;
+}

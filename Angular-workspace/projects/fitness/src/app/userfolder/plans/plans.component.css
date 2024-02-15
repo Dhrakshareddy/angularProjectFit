@@ -56,7 +56,7 @@
   #plans{
     position: absolute;
     top: 0px;
-    background-image: url(../../../../../images/plans.jfif);
+    /* background-image: url(../../../../../images/plans.jfif); */
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;

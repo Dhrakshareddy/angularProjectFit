@@ -73,7 +73,7 @@
   }
 
   #profile{
-    background-image: url(../../../.../../../../images/user.png);
+    /* background-image: url(../../../.../../../../images/user.png); */
     width: 100px;
     background-size: 100%;
 

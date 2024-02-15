@@ -29,6 +29,16 @@ import { WorkoutComponent } from './trainerfolder/workout/workout.component';
 import { ProgressComponent } from './trainerfolder/progress/progress.component';
 import { TrainerComponent } from './trainerfolder/trainer/trainer.component';
 import { WebsiteComponent } from './website/website.component';
+import { UserListComponent } from './adminfolder/user-list/user-list.component';
+import { UserFormComponent } from './adminfolder/user-form/user-form.component';
+import { DoctorListComponent } from './adminfolder/doctor-list/doctor-list.component';
+import { DoctorComponent } from './adminfolder/doctor/doctor.component';
+import { TrainerListComponent } from './adminfolder/trainer-list/trainer-list.component';
+import { TrainerregComponent } from './adminfolder/trainerreg/trainerreg.component';
+import { BranchesComponent } from './adminfolder/branches/branches.component';
+import { EquipmentComponent } from './trainerfolder/equipment/equipment.component';
+import { MembershipComponent } from './adminfolder/membership/membership.component';
+import { AdminnavComponent } from './adminfolder/adminnav/adminnav.component';
 
 const routes: Routes = [
   {
@@ -69,18 +79,18 @@ const routes: Routes = [
   {
     path:'more',component:MoreComponent
   },
- 
-  
   {
-   path:"",redirectTo:'home',pathMatch:'full'
+    path:'adminnav',component:AdminnavComponent
   },
+ 
+ 
 
   { path: 'burn', component: BurnComponent },
   { path: 'track-steps', component: TrackStepsComponent }, // Create TrackStepsComponent and other tracker components
   { path: 'drink-water', component: DrinkwaterComponent },
   { path: 'view-all', component:  ViewalltrackersComponent},
   // Add more routes as needed
-  { path: '', redirectTo: '/burn', pathMatch: 'full' }, // Default route
+  // { path: '', redirectTo: '/burn', pathMatch: 'full' }, // Default route
   
   
 
@@ -102,6 +112,26 @@ const routes: Routes = [
     { path: 'progress', component: ProgressComponent },
 
     { path: 'trainer', component: TrainerComponent },
+
+
+
+
+    { path: 'users', component: UserListComponent },
+  { path: 'users/edit/:id', component: UserFormComponent },
+  { path: 'users/add', component: UserFormComponent },
+  { path: '', redirectTo: '/users', pathMatch: 'full' },
+
+  { path: 'doctors', component: DoctorListComponent },
+  { path: 'doctors/edit/:id', component: DoctorComponent },
+  { path: 'doctors/add', component: DoctorComponent },
+
+  { path: 'trainers', component: TrainerListComponent },
+  { path: 'trainers/edit/:id', component: TrainerregComponent },
+  { path: 'trainers/add', component: TrainerregComponent },
+  
+  { path: 'equipment', component: EquipmentComponent },
+  { path: 'branches', component: BranchesComponent },
+  { path: 'membership', component: MembershipComponent },
    
     
  

@@ -18,7 +18,7 @@ export class UserloginComponent {
   constructor(private fb: FormBuilder, private dataService: DataService) {
     this.myForm = this.fb.group({
 
-      userName:this.fb.control('sreelatha'),
+      userName:this.fb.control('0'),
       email:this.fb.control('0'),
       dob:this.fb.control('0'),
       contactNumber:this.fb.control('0'),
