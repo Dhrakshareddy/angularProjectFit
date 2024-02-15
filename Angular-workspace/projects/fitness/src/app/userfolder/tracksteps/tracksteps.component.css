@@ -1,0 +1,47 @@
+.step-tracker {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 300px;
+    position: absolute;
+    top: 200px;
+    left: 850px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  input {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color:rgb(53,61,83);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+
+  #body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../.../../../../../../images/steps.jfif);
+    background-size: cover;
+    position: absolute;
+    top: -20px;
+    z-index: -11;
+
+  }
+
+  

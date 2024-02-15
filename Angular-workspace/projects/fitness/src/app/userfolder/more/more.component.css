@@ -1,0 +1,99 @@
+#more{
+    position: absolute;
+    left: 300px;
+    top: 50px;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    
+    
+}
+#fit{
+    width: 300px;
+    background-color: rgb(53,61,83);
+    color: white;
+    height: 60px;
+}
+#health{
+    width: 400px;
+    background-color: rgb(53,61,83);
+    color: white;
+    height: 60px;
+}
+#progress{
+    width: 300px;
+    background-color: rgb(53,61,83);
+    color: white;
+    height: 60px;
+}
+#remainders{
+    width: 400px;
+    background-color: rgb(53,61,83);
+    color: white;
+    height: 60px;
+}
+#help{
+    width: 300px;
+    background-color: rgb(53,61,83);
+    color: white;
+    height: 60px;
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 25px;
+
+   position: absolute;
+   top: 350px;
+    line-height: 50px;
+   
+}
+#mor{
+    position: absolute;
+    left: -150px;
+    top: -320px;
+    font-size: 30px;
+    color: black;
+    
+    padding: 10px;
+
+    width: 200px;
+  
+    font-weight: bolder;
+    
+}
+#container{
+    width: 400px;
+    height: 500px;
+    
+    position: absolute;
+    left: 200px;
+    top: 350px;
+    color: black;
+   
+   
+   
+}
+#con{
+    background-image: url(../../../../../images/more.jfif);
+    background-repeat: no-repeat;
+    width: 150vw;
+    height: 100vh;
+    background-size: cover;
+    position: absolute;
+    top: -20px;
+    right: 0px;
+    z-index: -10;
+}
+#h1{
+    width: 600px;
+    height: 400px;
+   color:  rgb(53,61,83);
+    position: absolute;
+    z-index: 5;
+    left: 650px;
+    top: 200px;
+   line-height: 60px;
+    font-size: 40px;
+    text-align: center;
+    align-items: center;
+  }

@@ -1,0 +1,37 @@
+<div class="container-fluid">
+    <div class="row flex-nowrap">
+      <div class="bg-dark  ">
+        <div class="bg-dark p-2">
+          <a class="d-flex text-decoration-none mt-1 align-items-center">
+            <span class="fs-4 d-none d-sm-inline"></span>
+          </a>
+           <ul class="nav nav-pills flex-column mt-4">
+            <li class="nav-item ">
+              <a  class="nav-link " aria-current="page"><i class="bi bi-person" style="font-size: 25px; color:#a2a8d3"></i><span class=" ms-2 d-none d-sm-inline " routerLink="home">View
+                  Profile</span></a>
+            </li>
+            <li class="nav-item">
+              <a    class="nav-link " aria-current="page"><i class="bi bi-people " style="font-size: 25px; color: #a2a8d3;"></i><span
+                  class=" ms-2 d-none d-sm-inline" routerLink="/users">My Candidates</span></a>
+            </li>
+            <li class="nav-item">
+              <a  class="nav-link " aria-current="page"><i class="bi bi-grid-3x3-gap-fill " style="font-size: 25px; color: #a2a8d3"></i><span
+                  class=" ms-2 d-none d-sm-inline " routerLink="/exercise">Feedback</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " aria-current="page"><i class="bi bi-files" style="font-size: 25px; color: #a2a8d3"></i><span
+                    class=" ms-2 d-none d-sm-inline " routerLink="/progress">Performance</span></a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link " aria-current="page"><i class="bi bi-calendar-check" style="font-size: 25px; color: #a2a8d3"></i><span
+                    class=" ms-2 d-none d-sm-inline" routerlink="/attendance">Attendance</span></a>
+            </li>
+          </ul> 
+        </div>
+      </div> 
+      <section class="mt-3"> 
+        <router-outlet></router-outlet>
+    </section>
+     
+    </div>
+  </div>

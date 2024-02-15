@@ -1,0 +1,35 @@
+<div class="container">
+        <div>
+            <form [formGroup]="myForm" (submit)="sendData()">
+                <h1>REGISTRATION </h1>
+                <tr>
+                    <td><label>User Name</label></td>
+                    <td><input type="text" formControlName="userName"></td>
+                </tr>
+                <tr>
+                    <td><label>Email</label></td>
+                    <td><input type="text" formControlName="email"></td>
+                </tr>
+                <tr>
+                    <td><label>DOB</label></td>
+                    <td><input type="dob" formControlName="dob"></td>
+                </tr>
+                <tr>
+                    <td><label> Age</label></td>
+                    <td><input type="number" formControlName="age"></td>
+                </tr>
+                <tr>
+                    <td><label>Contact No</label></td>
+                    <td><input type="number" formControlName="contactNumber"></td>
+                </tr>
+                <tr>
+                    <td><label>Password</label></td>
+                    <td><input type="text" formControlName="password"></td>
+                </tr>
+                <tr>
+                    <td><input class="reset" type="reset"></td>
+                    <td><button class="submit">Add</button></td>
+                </tr>
+            </form>
+        </div>
+</div>

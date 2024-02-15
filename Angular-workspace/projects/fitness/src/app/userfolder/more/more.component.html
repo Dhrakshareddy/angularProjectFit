@@ -1,0 +1,35 @@
+<!-- fitness-dashboard.component.html -->
+<div class="container mt-3" id="con">
+
+  <app-upgrade></app-upgrade>
+  <div class="row"  >
+    <div class="col-md-2" >
+      <div class="list-group" id="container">
+        <h2 id="mor">More</h2>
+        <a href="#" class="list-group-item list-group-item-action" id="fit" (click)="navigateTo('fitness-store')">
+          <i class="bi bi-shop"></i> Fitness Store
+        </a>
+        <a href="#" class="list-group-item list-group-item-action" id="health" (click)="navigateTo('health-logs')">
+          <i class="bi bi-journal"></i> Health Logs
+        </a>
+        <a href="#" class="list-group-item list-group-item-action" id="progress" (click)="navigateTo('progress-reports')">
+          <i class="bi bi-graph-up"></i> Progress Reports
+        </a>
+        <a href="#" class="list-group-item list-group-item-action" id="remainders" (click)="navigateTo('reminders')">
+          <i class="bi bi-alarm"></i> Reminders
+        </a>
+        <a href="#" class="list-group-item list-group-item-action" id="help" (click)="navigateTo('help-support')">
+          <i class="bi bi-question"></i> Help & Support
+        </a>
+       
+      </div>
+    </div>
+    <h1 id="h1">"Fitness is not just about <br>hitting the gym,
+      it is <br> also about an inner happiness <br>and an overall well-being.</h1>
+    <div class="col-md-10">
+      <!-- Content for each section goes here -->
+      <!-- You can use Angular Router to load different components based on the selected section -->
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>

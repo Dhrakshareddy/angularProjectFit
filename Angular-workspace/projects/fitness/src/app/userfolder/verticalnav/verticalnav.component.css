@@ -1,0 +1,87 @@
+
+.navbar {
+    display: flex;
+    align-items: center;
+  }
+  #con{
+    z-index: 7;
+  }
+  
+  .hamburger {
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  .bar {
+    height: 6px;
+    width: 50px;
+    background-color:rgb(53,61,83);
+    margin: 10px 0;
+  }
+  #home{
+    position: absolute;
+    left: 50px;
+    top: 240px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 20%;
+  }
+  #plans{
+    position: absolute;
+    left: 50px;
+    top: 340px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  #store{
+    position: absolute;
+    left: 50px;
+    top: 440px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  #more{
+    position: absolute;
+    left: 50px;
+    top: 540px;
+    color: white;
+    
+    font-size: 20px;
+    text-decoration: none;
+  }
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: -20px; 
+    left: 0;
+    background-color:rgb(53, 61, 83);
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: none;
+    width: 200px;
+    height: 100vh;
+   
+  }
+  
+  ul.show {
+    display: flex;
+  }
+
+  #profile{
+    background-image: url(../../../.../../../../images/user.png);
+    width: 100px;
+    background-size: 100%;
+
+    height: 100px;
+    border-radius: 100%;
+    position: absolute;
+    left: 30px;
+    top: 60px;
+
+  }
+  

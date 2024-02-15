@@ -1,0 +1,42 @@
+ <div class="plans-container" id="plans">
+  <div class="d-flex flex-wrap justify-content-between">
+    <h2>Fitness Plans</h2>
+     <div *ngFor='let plan of fitnessPlans' class="card" id="img" style="width:200px;text-align: justify;padding:15px;top:200px;color: white;height: 300px;background-color: rgb(53,67,83);margin-right:80px;">
+      <!-- <img [src]="" class="card-image-top" style="height: 170px;"> -->
+      <div class="card-header">
+        <p >{{plan.name}}</p>
+      </div>
+       <p style="text-align: center;">{{ plan.description }}</p>
+      <p style="text-align: center;"><strong>Price: ${{ plan.price }}</strong></p>
+      <!-- <div id="button"><button (click)="buyPlan(plan)">Buy Now</button></div> -->
+      <div id="below">
+        <input type="checkbox" [(ngModel)]="isChecked" [disabled]="isButtonDisabled"  >
+        <button (click)="enableCheckbox()" [disabled]="isButtonDisabled" id="buy">Buy Now</button>
+        <button (click)="removeButtons()" id="remove">Remove</button>
+      </div>
+    </div>
+    <div>
+      
+    </div>
+     
+    </div>
+  </div>
+  
+
+
+    
+    
+ 
+   
+
+
+   <!--<div class="d-flex flex-wrap overflow-auto" style="height: 500px;">
+    <div *ngFor='let plan of fitnessPlans' class="card m-2 p-3" style="width:200px;">
+      <img [src]="" class="card-image-top" style="height: 170px;">
+      <div class="card-header">
+        <p>{{plan.name}}</p>
+      </div>
+
+    </div>
+
+   </div>-->

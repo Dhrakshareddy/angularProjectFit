@@ -1,0 +1,10 @@
+<div id="body">
+<div class="step-tracker">
+    <h1>Step Tracker</h1>
+    <p>Enter your daily steps:</p>
+    <input type="number" [(ngModel)]="trackedSteps" placeholder="Enter steps" />
+    <button (click)="trackSteps()">Track Steps</button>
+    <p *ngIf="trackedSteps !== null">You've tracked {{ trackedSteps }} steps today!</p>
+  </div>
+</div>
+  

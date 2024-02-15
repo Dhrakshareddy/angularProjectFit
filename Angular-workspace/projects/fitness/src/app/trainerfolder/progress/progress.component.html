@@ -1,0 +1,31 @@
+<div class="container">
+    <div>
+        <div>
+            <form #frmRegister="ngForm" (submit)="saveProgress(frmRegister.value)"class="form" action="" method="post">
+                <h1>Progress</h1>
+                <tr>
+                    <td><label>User id</label></td>
+                    <td><input type="text" [(ngModel)]="progress.userId" name=userId ></td>
+                </tr>
+                <tr>
+                    <td><label>Date</label></td>
+                    <td><input type="date" [(ngModel)]="progress.date" name=date ></td>
+                </tr>
+                <tr>
+                    <td><label>Weight(in kgs)</label></td>
+                    <td><input type="number" [(ngModel)]="progress.weight" name=weight ></td>
+                </tr>
+                <tr>
+                    <td><label>Fitness Test Results(%)</label></td>
+                    <td><input type="text" [(ngModel)]="progress.fitnessTestResults" name=fitnessTestResults ></td>
+                </tr>
+                <tr>
+                    <td><input class="reset" type="reset"></td>
+                    <td><input class="submit" type="submit" value="Update Progress" routerLink="progress"></td>
+                </tr>
+            </form>
+            <button type="submit" routerLink="/users" >Exit</button> 
+        </div>
+    </div>
+</div>
+

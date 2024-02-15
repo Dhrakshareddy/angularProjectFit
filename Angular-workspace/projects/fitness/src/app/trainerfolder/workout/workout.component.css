@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    font-size: 20px;
+    /* color: #f7f8f9f1;  */
+}
+.container{
+    /* background-image: url('../../../../../images/image6.jpg'); */
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.form{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 520px;
+    
+}
+.form h1{
+    text-align: center;
+    font-size:30px;
+}
+form input{
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 35px;
+    padding: 5px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    color:#5a6269f1
+}
+form .submit{
+    height: 40px;
+    width: 150px;
+    margin-left: 30px;
+    background-color:#38598b;
+    color: black; 
+    cursor: pointer;
+}
+form .reset{
+    height: 40px;
+    width: 120px;
+    margin-left: 20px;
+    background-color:#a2a8d3;
+    color: black;
+    cursor: pointer;
+}
+button{
+    position:relative;
+    margin-top: 450px;
+    margin-left: 680px;
+    width: 130px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(222, 46, 46);
+    color: #fff;
+}
+/* ---colors---
+#113f67 ---> darkest blue
+#38598b ---> dark blue
+#a2a8d3 ---> light blue
+#e7eaf6 ---> grey white
+*/

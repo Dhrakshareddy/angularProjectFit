@@ -1,0 +1,15 @@
+<body id="body">
+<div id="container">
+<h2>Water Consumption Tracker</h2>
+<div id="label">
+  <label for="currentWater">Current Water Intake (liters): </label>
+  <input type="number" id="currentWater" [(ngModel)]="currentWater" />
+</div>
+<div id="check">
+  <button (click)="checkWaterIntake()">Check Water Intake</button>
+</div>
+<div *ngIf="alertMessage">
+  <p  id="alert">{{ alertMessage }}</p>
+</div>
+</div>
+</body>

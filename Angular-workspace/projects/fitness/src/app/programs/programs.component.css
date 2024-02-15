@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather';
+}
+.container {
+    background-image: url('../../../../../images.css/image13.webp');
+    /* padding: 40px; */
+    text-align: center;
+    color: white;
+    background-position: center;
+    background-size: cover;
+    max-width:100%;
+    height: 100vh;
+    margin-top: -55px;
+  }
+  .heading h2{
+    margin-top: 10px;
+    color: black;
+  }
+.section1{
+    width: 40%;
+    margin-top: 20px;
+    font-size: larger;
+}
+.section2{
+    width: 40%;
+    margin-top: -110px; 
+    margin-left: 600px;
+    font-size: larger;
+}
+.section1 h4{
+    color: black;
+    border-radius: 10px;   
+}
+.section2 h4{
+    color: black;
+    border-radius: 10px; 
+}
+
+  
